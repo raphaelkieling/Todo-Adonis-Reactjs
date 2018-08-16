@@ -16,6 +16,6 @@ Andamento
 
 > Por algum motivo o print do telefone está escurecendo a imagem. Mas as cores estão como as definidas no protótipo.
 
-<img src="./project/images/screenshot02.jpeg" width="300px" alt="Screenshot 02">
+<img src="./project/images/screenshot02.jpeg" width="300px" alt="Screenshot 02" style="float:left;margin-right:20px;">
 <img src="./project/images/screenshot04.jpeg" width="300px" alt="Screenshot 03">
 
