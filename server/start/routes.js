@@ -15,6 +15,12 @@
 
 const Route = use('Route')
 
-Route.get('/', ({ request }) => {
-  return { greeting: 'Hello world in JSON' }
-})
+Route
+  .resource('tasks','TaskController')
+  .apiOnly()
+  .middleware('auth')
+
+Route.post('login','UserController.login')
+Route.post('logout','UserController.logout')
+
+Route.post('users','UserController.create')
